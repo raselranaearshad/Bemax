@@ -1,0 +1,54 @@
+/* Medium Device */
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    .container{width: 970px;}
+}
+
+/* Tablet Device */
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .container{width: 750px; overflow: hidden;}
+    .feature-content p {display: none;}
+    .features-icon h3 {display: block;margin-left: 0;text-align: center;}
+    .features-icon {text-align: center;}
+    .features-icon span {margin-bottom: 30px;}
+    .col-3 {width: 50%;}
+    .col-6 {width: 100%;}
+    .video-img {margin-bottom: 30px;}
+    .blog-active {margin-bottom: 30px;}
+
+}
+
+
+/* Small Mobile :320px */
+@media screen and (max-width: 767px){
+    .container{width: 300px;}
+    /* Mobile-menu Style */
+    .mean-bar {margin: 30px 0;}
+    .mean-container .mean-nav ul li a.mean-expand {height: 26px;}
+    /* Mobile Menu End */
+    .col-3{width: 100%;}
+    .col-4{width: 100%;}
+    .col-6{width: 100%;}
+    .col-8 {width: 100%;}
+
+    .single-feature {margin-bottom: 20px;}
+    .features-icon h3 {display: block;margin-left: 0;text-align: center;}
+    .features-icon {text-align: center;}
+    .features-icon span {margin-bottom: 30px;}
+    .feature-content p{display: none;}
+    .feature-content {text-align: center;}
+    .video-img {margin-bottom: 30px;}
+    .blog-active {margin-bottom: 30px;}
+    .blog-img{width: 100%;}
+    .blog-content{width: 100%; margin-top: 20px;}
+    .testimonial-wrapper p {font-size: 14px;}
+    .single-brand {text-align: center;}
+    .footer-widget {margin-bottom: 30px;}
+    .footer-widget h3 {margin-bottom: 14px;}
+}
+
+/* Learge Mobile Device :480px */
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    .container{width: 450px;}
+    .feature-img img {width: 100%;}
+    .feature-content {transform: translateY(76%);}
+}
