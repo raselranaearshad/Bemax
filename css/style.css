@@ -77,6 +77,7 @@ ul{
 .header-area {
 	border-top: 5px solid var(--andreaBlue);
 	min-height: 120px;
+	overflow: hidden;
 }
 .logo {
 	float: left;
@@ -301,15 +302,17 @@ ul{
 	padding: 30px 35px;
 	background: var(--andreaBlue);
 	transition: all .5s ease 0s;
-	transform: translateY(66%);
+	transform: translateY(68%);
 	opacity: .9;
 }
 .single-feature .feature-content:hover {
 	transform: translateY(0);
 	cursor: pointer;
 }
-.features-icon{
-	margin-bottom: 30px;
+.features-icon {
+	margin-bottom: 18px;
+	display: flex;
+	align-items: center;
 }
 .features-icon span {
 	font-size: 30px;
@@ -759,7 +762,7 @@ ul{
 	color: #45484d;
 }
 .footer-widget ul li{
-	padding: 10px 0;
+	padding: 8px 0;
 }
 .footer-widget ul li a{
 	font-size: 14px;

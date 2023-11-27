@@ -1,6 +1,8 @@
 /* Medium Device */
 @media screen and (min-width: 992px) and (max-width: 1200px){
     .container{width: 970px;}
+    .working-area {padding: 50px 0;}
+    .feature-content {padding: 12px 35px;transform: translateY(78%);}
 }
 
 /* Tablet Device */
@@ -10,10 +12,14 @@
     .features-icon h3 {display: block;margin-left: 0;text-align: center;}
     .features-icon {text-align: center;}
     .features-icon span {margin-bottom: 30px;}
+    .feature-content {padding: 12px 35px;transform: translateY(72%);}
     .col-3 {width: 50%;}
     .col-6 {width: 100%;}
     .video-img {margin-bottom: 30px;}
     .blog-active {margin-bottom: 30px;}
+    .serviec-content h3 {margin-bottom: 5px;}
+    .choose-title {margin-bottom: 10px;}
+    .working-area {padding: 80px 0;}
 
 }
 
@@ -29,10 +35,23 @@
     .col-4{width: 100%;}
     .col-6{width: 100%;}
     .col-8 {width: 100%;}
-
+    section {padding: 40px 0;}
+    .section-title {margin-bottom: 40px;}
+    .working-area {padding: 50px 0;}
+    .cta-text p {font-size: 16px;}
+    .serviec-content h3 {margin-bottom: 8px;}
+    .services-area {padding: 40px 0;}
+    .slider-active.owl-carousel .owl-nav button {display: none;}
+    .working-area .section-title p {font-size: 16px;}
+    .blog-meta span {display: block;padding: 4px 0px;}
+    .blog-content p {margin-bottom: 12px;}
+    .single-slide h2 {font-size: 40px;}
+    .single-slide h4 {font-size: 20px;margin-bottom: 12px;}
     .single-feature {margin-bottom: 20px;}
     .features-icon h3 {display: block;margin-left: 0;text-align: center;}
-    .features-icon {text-align: center;}
+    .features-icon {text-align: center; display: block;}
+    .single-service {margin-bottom: 18px;}
+    .choose-title {margin-bottom: 8px;}
     .features-icon span {margin-bottom: 30px;}
     .feature-content p{display: none;}
     .feature-content {text-align: center;}
@@ -44,11 +63,12 @@
     .single-brand {text-align: center;}
     .footer-widget {margin-bottom: 30px;}
     .footer-widget h3 {margin-bottom: 14px;}
+    .copyright-text {padding: 20px 0;font-size: 14px;}
 }
 
 /* Learge Mobile Device :480px */
-@media only screen and (min-width: 480px) and (max-width: 767px){
-    .container{width: 450px;}
+@media only screen and (min-width: 500px) and (max-width: 767px){
+    .container{width: 480px;}
     .feature-img img {width: 100%;}
-    .feature-content {transform: translateY(76%);}
+    .feature-content {padding: 24px 35px; transform: translateY(76%);}
 }

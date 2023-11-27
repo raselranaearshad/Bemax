@@ -32,10 +32,13 @@ $(document).ready(function(){
         margin: 2,
         nav: true,
         autoplay: true,
-        autoplayTimeout: 2000,
+        autoplayTimeout: 3500,
         responsive: {
             0:{
                 items:1
+            },
+            400:{
+                items: 1
             },
             600:{
                 items: 2
@@ -90,7 +93,7 @@ $(document).ready(function(){
         nav: false,
         dots: false,
         autoplay: true,
-        autoplayTimeout: 2000,
+        autoplayTimeout: 3500,
         responsive: {
             0:{
                 items:1
