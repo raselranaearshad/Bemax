@@ -502,6 +502,9 @@ ul{
 	margin-bottom: 30px;
 	padding-left: 10px;
 }
+.choose-list:last-child {
+	margin-bottom: 0;
+}
 .choose-title {
 	display: flex;
 	align-items: center;

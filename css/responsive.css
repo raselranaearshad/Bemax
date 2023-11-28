@@ -50,7 +50,8 @@
     .single-feature {margin-bottom: 20px;}
     .features-icon h3 {display: block;margin-left: 0;text-align: center;}
     .features-icon {text-align: center; display: block;}
-    .single-service {margin-bottom: 18px;}
+    .single-service {margin-bottom: 15px;}
+    .serviec-content p {line-height: 20px;}
     .choose-title {margin-bottom: 8px;}
     .features-icon span {margin-bottom: 30px;}
     .feature-content p{display: none;}
